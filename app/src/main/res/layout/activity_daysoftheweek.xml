@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".daysoftheweek">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:gravity="center"
+        android:text="Check your knowledge!!"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:textStyle="italic"/>
+
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <CheckBox
+        android:id="@+id/monday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Monday"
+        android:layout_marginBottom="10dp"/>
+
+    <CheckBox
+        android:id="@+id/tuesday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tuesday"
+        android:layout_marginBottom="10dp"/>
+
+    <CheckBox
+        android:id="@+id/wednesday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wednesday"
+        android:layout_marginBottom="10dp"/>
+    <CheckBox
+        android:id="@+id/thursday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thursday"
+        android:layout_marginBottom="10dp"/>
+    <CheckBox
+        android:id="@+id/friday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Friday"
+        android:layout_marginBottom="10dp"/>
+    <CheckBox
+        android:id="@+id/saturday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Saturday"
+        android:layout_marginBottom="10dp"/>
+    <CheckBox
+        android:id="@+id/sunday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sunday"
+        android:layout_marginBottom="10dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#FFEB3B"
+        android:text="Check" />
+    
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:gravity="center_horizontal"
+        android:id="@+id/checkResult"/>
+
+
+</LinearLayout>
